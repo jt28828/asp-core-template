@@ -1,2 +1,8 @@
+# Compilation Artifacts
 bin
 obj
+
+# IDE Files
+.idea
+.vs
+.vscode
