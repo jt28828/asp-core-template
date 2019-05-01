@@ -1,0 +1,26 @@
+@page
+@model DotnetCoreWebApiTemplate.Pages.ValuesPage
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Demo Page for Values</title>
+</head>
+<body>
+<div>
+    @Model.DataText
+
+    <ul>
+        @foreach (string value in Model.DemoTextList)
+        {
+            <li>@value</li>
+        }
+    </ul>
+</div>
+</body>
+</html>
