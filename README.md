@@ -26,8 +26,10 @@ dotnet new -i <location of the repo folder here>
 
 The Template will then be installed locally on your PC. 
 To then use the template select it in your IDE or run 
-`dotnet new aspCoreStarter`in the terminal in the location 
-you want to create the project. Please note that is will 
-create the solution and project files in the same directory 
-as where you call the command, so create your project 
-folder first.
+```
+dotnet new aspCoreStarter
+```
+in the terminal in the location you want to create the 
+project. Please note that is will create the solution 
+and project files in the same directory as where you 
+call the command, so create your project folder first.
